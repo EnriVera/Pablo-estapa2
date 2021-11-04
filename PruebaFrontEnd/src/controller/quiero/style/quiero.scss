@@ -1,0 +1,52 @@
+$color_gray: #e5e5e5;
+.container{
+    border: 1px solid #c2c2c2;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 40%;
+    background: white;
+    margin-top: 1rem;
+}
+
+.quiero_input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    img {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50px;
+        margin-right: 1rem;
+    }
+
+    div {
+        width: 100%;
+        background: white;
+        input {
+            width: 95%;
+            // height: 3rem;
+            border-radius: 50px;
+            background:  $color_gray;
+            border: 1px solid $color_gray;
+            padding: .5rem;
+            font-size: 15px;
+        }
+    }
+}
+.line{
+    display: flex;
+    width: 100%;
+    height: 2px;
+    border-radius: 50px;
+    margin-top: .5rem;
+    background: $color_gray;
+}
+
+.quiero_button{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}

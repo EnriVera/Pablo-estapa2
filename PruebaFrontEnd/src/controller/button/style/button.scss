@@ -1,0 +1,10 @@
+.button{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    p {
+        background-color: white;
+    }
+}

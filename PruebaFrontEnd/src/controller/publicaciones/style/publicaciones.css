@@ -1,0 +1,86 @@
+.conatainer_user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: white;
+}
+
+.conatainer_user img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50px;
+}
+
+.conatainer_user div {
+  margin-left: .5rem;
+  background: white;
+}
+
+.conatainer_user div h2 {
+  font-size: 15px;
+  color: #6e34ca;
+  background: white;
+  width: 100%;
+  text-align: left;
+  margin-left: .5rem;
+}
+
+.conatainer_user div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+}
+
+.conatainer_user div div p {
+  color: #868585;
+  background: white;
+  width: 100%;
+  text-align: left;
+}
+
+.conatainer_user div div p:nth-child(1) {
+  margin-right: 1rem;
+}
+
+.container_publi {
+  margin-top: 1rem;
+  background: white;
+  text-align: left;
+}
+
+.container_publi p {
+  background: white;
+}
+
+.publi_button {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.publi_button button {
+  font-size: 18px;
+  background: white;
+  border: none;
+}
+/*# sourceMappingURL=publicaciones.css.map */
